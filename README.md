@@ -3,7 +3,7 @@
 A small command-line calculator written in Python, used to practise Git and GitHub:
 branching, committing, merging and resolving a merge conflict.
 
-**Version:** 1.0 (basic + - * / operations)
+**Version:** 1.1 (division results are rounded to 2 decimal places)
 
 ## Run
 
