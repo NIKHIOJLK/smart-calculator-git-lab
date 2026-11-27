@@ -17,10 +17,10 @@ def multiply(a, b):
     return a * b
 
 
-def divide(a, b):
+def divide(a, b, places=2):
     if b == 0:
         raise ValueError("cannot divide by zero")
-    return a / b
+    return round(a / b, places)
 
 
 OPERATIONS = {
